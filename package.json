@@ -9,7 +9,7 @@
     "lint": "prettier . --write",
     "preview": "vite preview",
     "prepare": "husky",
-    "gen:i18n": "pnpx tsx src/i18n/script/generate_traductions.ts",
+    "gen:i18n": "npx tsx src/i18n/script/generate_traductions.ts",
     "update:api": "bash src/scripts/generate-spec-api.sh"
   },
   "dependencies": {
@@ -61,7 +61,6 @@
     "path": "^0.12.7",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
-    
     "ts-node": "^10.9.2",
     "tsx": "^4.17.0",
     "typescript": "^5.5.3",
@@ -75,13 +74,10 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "pnpm": {
-    "overrides": {
-      "micromatch@<4.0.8": ">=4.0.8",
-      "rollup@>=4.0.0 <4.22.4": ">=4.22.4",
-      "cross-spawn@>=7.0.0 <7.0.5": ">=7.0.5",
-      "nanoid@<3.3.8": ">=3.3.8",
-      "vite@>=5.0.0 <=5.4.11": ">=5.4.12"
-    }
+  "overrides": {
+    "micromatch": ">=4.0.8",
+    "rollup": ">=4.22.4",
+    "cross-spawn": ">=7.0.5",
+    "nanoid": ">=3.3.8"
   }
 }
