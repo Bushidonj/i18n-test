@@ -1,5 +1,0 @@
-{
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-  "installCommand": "npm ci",
-  "buildCommand": "npm run build"
-}
