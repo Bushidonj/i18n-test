@@ -3,5 +3,14 @@
     "hello":"Bonjour",
     "this is an english app":"c'est une application française",
     "this is a multi language app":"ceci est une application multilingue",
-    "you can change the language of app manually":"vous pouvez changer la langue de l'application manuellement"
+    "you can change the language of app manually":"vous pouvez changer la langue de l'application manuellement",
+
+    "hero": {
+        "title": "Protocole de Confidentialité Harpo ZK",
+        "titleRich": "Protocole de Confidentialité <br/> <harpo>Harpo </harpo><zk>ZK</zk>",
+        "infrastructureTop": "Harpo ZK offre des solutions sûres et évolutives, axées sur la sécurité <crypto>cryptographique</crypto>, la confidentialité et la conformité réglementaire.",
+        "infrastructureBottom": "Notre infrastructure s'adapte à divers scénarios, y compris la protection des données avec une transparence opérationnelle.",
+        "infrastructure": "Harpo ZK offre des solutions sûres et évolutives, axées sur la sécurité cryptographique, la confidentialité et la conformité réglementaire. Notre infrastructure s'adapte à divers scénarios, y compris la protection des données avec une transparence opérationnelle.",
+        "learnMore": "En savoir plus"
+    }
 }

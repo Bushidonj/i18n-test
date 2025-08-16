@@ -5,6 +5,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import Hero from './Hero/Hero.jsx';
 
 const language = [
   { code: 'en', name: 'English', dir: 'ltr' },
@@ -26,6 +27,7 @@ const Home = () => {
 
   return (
     <div>
+      <Hero />
       <div>
         <FormControl sx={{ maxWidth: '80%', margin: '5% 10%' }} fullWidth>
           <InputLabel id="demo-simple-select-autowidth-label">{lang}</InputLabel>

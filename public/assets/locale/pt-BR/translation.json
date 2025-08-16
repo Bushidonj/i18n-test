@@ -1,0 +1,57 @@
+{
+  "welcome": "Bem-vindo",
+  "hello": "Olá",
+  "this is an english app": "Este é um app em inglês",
+  "this is a multi language app": "Este é um app multilíngue",
+  "you can change the language of app manually": "Você pode alterar o idioma do app manualmente",
+
+  "header": {
+    "brand": "Harpo-ZK",
+    "menu": {
+      "about": "Sobre",
+      "forDevs": "Para Devs",
+      "aboutUs": "Sobre nós",
+      "blog": "Blog",
+      "docs": "Documentação",
+      "howToUse": "Como usar",
+      "concepts": "Conceitos"
+    },
+    "language": "Idioma"
+  },
+
+  "footer": {
+    "brand": "Harpo-ZK",
+    "description": "Infraestrutura que protege dados sem comprometer a transparência.",
+    "columns": {
+      "support": "Suporte",
+      "company": "Empresa",
+      "devs": "Para Desenvolvedores",
+      "legal": "Jurídico"
+    },
+    "links": {
+      "aboutHarpo": "Sobre o Harpo-ZK",
+      "professionalServices": "Serviços Profissionais",
+      "technicalContact": "Contato Técnico",
+      "aboutUs": "Sobre nós",
+      "blog": "Blog",
+      "demo": "Demonstração (Agendar Demo)",
+      "docs": "Documentação",
+      "howToUse": "Como usar",
+      "concepts": "Conceitos",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Uso"
+    },
+    "madeBy": "Feito por",
+    "allRights": "Todos os direitos reservados.",
+    "version": "Versão 0.0.5"
+  },
+
+  "hero": {
+    "title": "Protocolo de Privacidade Harpo ZK",
+    "titleRich": "Protocolo de Privacidade <br/> <harpo>Harpo </harpo><zk>ZK</zk>",
+    "infrastructureTop": "O Harpo ZK oferece soluções seguras e escaláveis, focadas em segurança <crypto>criptográfica</crypto>, privacidade e conformidade regulatória.",
+    "infrastructureBottom": "Nossa infraestrutura se adapta a diversos cenários, incluindo proteção de dados com transparência operacional.",
+    "infrastructure": "O Harpo ZK oferece soluções seguras e escaláveis, focadas em segurança criptográfica, privacidade e conformidade regulatória. Nossa infraestrutura se adapta a diversos cenários, incluindo proteção de dados com transparência operacional.",
+    "learnMore": "Saber mais"
+  }
+}
