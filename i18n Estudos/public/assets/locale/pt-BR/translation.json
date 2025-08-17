@@ -1,0 +1,101 @@
+{
+  "welcome": "Bem-vindo",
+  "hello": "Olá",
+  "this is an english app": "Este é um app em inglês",
+  "this is a multi language app": "Este é um app multilíngue",
+  "you can change the language of app manually": "Você pode alterar o idioma do app manualmente",
+
+  "header": {
+    "brand": "Harpo-ZK",
+    "menu": {
+      "about": "Sobre",
+      "forDevs": "Para Devs",
+      "aboutUs": "Sobre nós",
+      "blog": "Blog",
+      "docs": "Documentação",
+      "howToUse": "Como usar",
+      "concepts": "Conceitos"
+    },
+    "language": "Idioma"
+  },
+
+  "footer": {
+    "brand": "Harpo-ZK",
+    "description": "Infraestrutura que protege dados sem comprometer a transparência.",
+    "columns": {
+      "support": "Suporte",
+      "company": "Empresa",
+      "devs": "Para Desenvolvedores",
+      "legal": "Jurídico"
+    },
+    "links": {
+      "aboutHarpo": "Sobre o Harpo-ZK",
+      "professionalServices": "Serviços Profissionais",
+      "technicalContact": "Contato Técnico",
+      "aboutUs": "Sobre nós",
+      "blog": "Blog",
+      "demo": "Demonstração (Agendar Demo)",
+      "docs": "Documentação",
+      "howToUse": "Como usar",
+      "concepts": "Conceitos",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Uso"
+    },
+    "madeBy": "Feito por",
+    "allRights": "Todos os direitos reservados.",
+    "version": "Versão 0.0.5"
+  },
+
+  "hero": {
+    "title": "Protocolo de Privacidade Harpo ZK",
+    "titleRich": "Protocolo de Privacidade <br/> <harpo>Harpo </harpo><zk>ZK</zk>",
+    "infrastructureTop": "O Harpo ZK oferece soluções seguras e escaláveis, focadas em segurança <crypto>criptográfica</crypto>, privacidade e conformidade regulatória.",
+    "infrastructureBottom": "Nossa infraestrutura se adapta a diversos cenários, incluindo proteção de dados com transparência operacional.",
+    "infrastructure": "O Harpo ZK oferece soluções seguras e escaláveis, focadas em segurança criptográfica, privacidade e conformidade regulatória. Nossa infraestrutura se adapta a diversos cenários, incluindo proteção de dados com transparência operacional.",
+    "learnMore": "Saber mais"
+  },
+
+  "features": {
+    "highlight": "Componentes",
+    "title": "Blindagem de Dados com Provas Criptográficas",
+    "subtitle": "Autenticação silenciosa e rastreabilidade sem exposição pública.",
+    "items": [
+      { "title": "UTXO", "description": "Usado para representar ativos entre partes de uma negociação, em condições de serem transacionados pelo recebedor mediante prova de posse." },
+      { "title": "Provas ZKP", "description": "Permitem às partes provar aos contratos a posse de certas informações, sem revelar a própria informação." },
+      { "title": "Chaves assimétricas", "description": "Usadas para viabilizar a criptografia de informações e garantir que apenas o destinatário pretendido possa lê-las." },
+      { "title": "Árvore de hash", "description": "Usada para verificar a existência de compromissos associados aos UTXOs e garantir que as informações sejam recebidas sem danos, alterações ou fraude." },
+      { "title": "Hashing", "description": "Recurso aplicado na produção de compromissos a serem registrados pela EVM, garantindo autenticidade e integridade, evitando reversões aos dados originais." },
+      { "title": "Nullifiers", "description": "Usados para autorizar gastos de UTXOs, representando-os de forma não vinculável aos compromissos, para impedir a navegação entre transações." }
+    ]
+  },
+
+  "offeredFeatures": {
+    "title": "Funcionalidades",
+    "items": [
+      { "title": "Transparência de ativos privados", "description": "Permite rastreabilidade completa de ativos digitais preservando a confidencialidade das partes envolvidas. Com o Harpo, instituições podem monitorar operações com precisão sem comprometer a privacidade." },
+      { "title": "Depósito e saque entre ambientes públicos e privados", "description": "Facilita o trânsito de ativos entre ambientes tradicionais e privados com total segurança. Ideal para instituições que precisam operar em redes públicas mas desejam manter dados sensíveis em ambientes protegidos." },
+      { "title": "Criação e mintagem de ativos fungíveis e não fungíveis", "description": "Oferece flexibilidade para desenvolver tokens únicos (NFTs) ou intercambiáveis (fungíveis), com camadas avançadas de segurança e privacidade. Base sólida para produtos digitais personalizados e escaláveis." },
+      { "title": "Swap e DvP (Delivery versus Payment)", "description": "Proporciona trocas de ativos com liquidação simultânea e segura. Garante que entrega e pagamento ocorram de forma coordenada, reduzindo riscos operacionais e fortalecendo a confiança entre participantes." },
+      { "title": "Mensageria privada criptografada", "description": "Viabiliza comunicação segura entre instituições por meio de mensagens criptografadas. É possível trocar informações sensíveis no ambiente blockchain com total confidencialidade." },
+      { "title": "Registro de chaves públicas", "description": "Permite que instituições registrem suas chaves públicas de forma segura e auditável, criando uma base confiável para transações e validações digitais no ecossistema Drex." },
+      { "title": "Bloqueio e apreensão de ativos por autoridade", "description": "Atende exigências regulatórias ao permitir a atuação de autoridades competentes na suspensão temporária ou permanente de ativos, com integridade de registros e transparência operacional." },
+      { "title": "Máquina de estados configurável para controle de fluxos", "description": "Oferece controle detalhado sobre cada etapa de uma operação, com lógica customizável que acompanha o ciclo de vida do ativo. Ideal para automação de processos e redução de risco operacional." }
+    ]
+  },
+
+  "faqs": {
+    "highlight": "FAQs",
+    "title": "Perguntas Frequentes",
+    "subtitle": "Esta seção responde às dúvidas mais frequentes sobre o protocolo Harpo, sua arquitetura de privacidade e como você pode participar.",
+    "items": [
+      { "title": "O que é o Harpo ZK?", "description": "O Harpo ZK é um protocolo que permite a coexistência de transações públicas e privadas em redes compatíveis com EVM (como Ethereum, Polygon, Arbitrum etc.), usando provas de conhecimento zero (Zero-Knowledge Proofs) e um modelo baseado em UTXOs e nullifiers. Oferece privacidade sem sacrificar a interoperabilidade com ativos públicos." },
+      { "title": "O que são Zero-Knowledge Proofs?", "description": "ZKPs (Zero-Knowledge Proofs) são técnicas criptográficas que permitem provar que algo é verdadeiro sem revelar os dados envolvidos. No contexto do Harpo, isso significa validar transações sem expor valores ou identidades dos participantes." },
+      { "title": "Qual a diferença entre transações públicas e privadas?", "description": "Transações públicas têm informações como valores, remetentes e destinatários visíveis a qualquer um que consulte a blockchain. Já as privadas ocultam essas informações por meio de provas de conhecimento zero, preservando a confidencialidade sem comprometer a integridade da rede." },
+      { "title": "Como funcionam os UTXOs no Harpo?", "description": "No protocolo Harpo, tokens privados são representados por UTXOs, que são saídas de transações não gastas. Quando um usuário realiza uma transação, ele consome um ou mais UTXOs de sua posse e cria novos UTXOs como resultado. Esse modelo permite rastrear e validar a posse sem comprometer a privacidade." },
+      { "title": "O que são nullifiers?", "description": "Nullifiers são identificadores únicos derivados de UTXOs que já foram usados em uma transação. Eles impedem o duplo gasto, garantindo que um UTXO não seja reutilizado. Ao revelar um nullifier, o sistema sabe que o UTXO correspondente já foi gasto e não pode ser usado novamente." },
+      { "title": "O Harpo possui SDK?", "description": "Sim, o Harpo oferece um SDK que facilita o uso da tecnologia. Esse SDK automatiza a geração das provas criptográficas necessárias, cria o payload correto para interação com contratos inteligentes e fornece ferramentas para monitorar eventos e consolidar UTXOs em posse do usuário." },
+      { "title": "Em quais redes o Harpo pode ser usado?", "description": "O protocolo Harpo pode ser utilizado em qualquer rede compatível com a EVM, como Ethereum, Polygon, BNB Chain, Arbitrum, Optimism, etc. Essa compatibilidade amplia o alcance do Harpo e facilita a integração com plataformas existentes." },
+      { "title": "Qual é o objetivo da comunidade Harpo?", "description": "O objetivo da comunidade Harpo é construir uma infraestrutura descentralizada e transparente para transações privadas, incentivando educação e adoção de tecnologias baseadas em provas de conhecimento zero. A comunidade é aberta a desenvolvedores, pesquisadores, entusiastas e usuários interessados em privacidade e inovação em blockchain." }
+    ]
+  }
+}

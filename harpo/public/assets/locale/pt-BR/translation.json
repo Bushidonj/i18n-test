@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Protocolo de Privacidade Harpo ZK",
+    "infrastructure": "Nossa infraestrutura se adapta a cenários diversos, incluindo proteção de dados com transparência operacional",
+    "learnMore": "Saiba mais"
+  },
+
+  "features": {
+    "highlight": "Componentes",
+    "title": "Blindagem de Dados com Provas Criptográficas",
+    "subtitle": "Autenticação silenciosa e rastreabilidade sem exposição pública.",
+    "items": [
+      {
+        "title": "UTXO",
+        "description": "Usado para representar ativos entre partes de uma negociação, em condições de serem transacionados pelo recebedor mediante prova de posse."
+      },
+      {
+        "title": "Provas ZKP",
+        "description": "Permitem às partes provar aos contratos a posse de certas informações, sem revelar a própria informação."
+      },
+      {
+        "title": "Chaves assimétricas",
+        "description": "Usadas para viabilizar a criptografia de informações e garantir que apenas o destinatário pretendido possa lê-las."
+      },
+      {
+        "title": "Árvore de hash",
+        "description": "Usada para verificar a existência de compromissos associados aos UTXOs e garantir que as informações sejam recebidas sem danos, alterações ou fraude."
+      },
+      {
+        "title": "Hashing",
+        "description": "Recurso aplicado na produção de compromissos a serem registrados pela EVM, garantindo autenticidade e integridade, evitando reversões aos dados originais."
+      },
+      {
+        "title": "Nullifiers",
+        "description": "Usados para autorizar gastos de UTXOs, representando-os de forma não vinculável aos compromissos, para impedir a navegação entre transações."
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+    "welcome":"Welcome",
+    "hello":"Hello",
+    "this is an english app":"This is an English app",
+    "this is a multi language app":"This is a multi language app",
+    "you can change the language of app manually":"You can change the language of app manually",
+
+    "header": {
+        "brand": "Harpo-ZK",
+        "menu": {
+            "about": "About",
+            "forDevs": "For Devs",
+            "aboutUs": "About Us",
+            "blog": "Blog",
+            "docs": "Documentation",
+            "howToUse": "How to Use",
+            "concepts": "Concepts"
+        },
+        "language": "Language"
+    },
+
+    "footer": {
+        "brand": "Harpo-ZK",
+        "description": "Infrastructure that protects data without compromising transparency.",
+        "columns": {
+            "support": "Support",
+            "company": "Company",
+            "devs": "For Developers",
+            "legal": "Legal"
+        },
+        "links": {
+            "aboutHarpo": "About Harpo-ZK",
+            "professionalServices": "Professional Services",
+            "technicalContact": "Technical Contact",
+            "aboutUs": "About Us",
+            "blog": "Blog",
+            "demo": "Demo (Schedule a Demo)",
+            "docs": "Documentation",
+            "howToUse": "How to Use",
+            "concepts": "Concepts",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Use"
+        },
+        "madeBy": "Made by",
+        "allRights": "All rights reserved.",
+        "version": "Version 0.0.5"
+    },
+
+    "hero": {
+        "title": "Privacy Protocol Harpo ZK",
+        "titleRich": "Privacy Protocol <br/> <harpo>Harpo </harpo><zk>ZK</zk>",
+        "infrastructureTop": "Harpo ZK offers secure and scalable solutions, focused on, security <crypto>cryptographic</crypto> privacy and regulatory compliance.",
+        "infrastructureBottom": "Our infrastructure adapts to diverse scenarios, including data protection with operational transparency.",
+        "infrastructure": "Harpo ZK offers secure and scalable solutions focused on cryptographic security, privacy, and regulatory compliance. Our infrastructure adapts to diverse scenarios, including data protection with operational transparency.",
+        "learnMore": "Learn more"
+    },
+
+    "features": {
+        "highlight": "Components",
+        "title": "Data Blindage with Cryptographic Proofs",
+        "subtitle": "Silent authentication and traceability without public exposure.",
+        "items": [
+            { "title": "UTXO", "description": "Used to represent assets between parties of a negotiation, in conditions of being transacted by the receiver through proof of ownership." },
+            { "title": "ZKP Proofs", "description": "Allow parties to prove to contracts the possession of certain information, without revealing the information itself." },
+            { "title": "Asymmetric keys", "description": "Used to enable information encryption and ensure that only the intended recipient can read it." },
+            { "title": "Hash tree", "description": "Used to verify the existence of commitments associated with UTXOs and ensure that information is received without damage, alterations or fraud." },
+            { "title": "Hashing", "description": "A resource applied in the production of commitments to be registered by the EVM, ensuring their authenticity and integrity, while preventing reversions to original data." },
+            { "title": "Nullifiers", "description": "Used to authorize UTXO expenditures, representing them in an unlinkable manner from commitments, to prevent navigation between transactions." }
+        ]
+    },
+
+    "offeredFeatures": {
+        "title": "Features",
+        "items": [
+            { "title": "Private asset transparency", "description": "Enables complete traceability of digital assets while preserving the confidentiality of involved parties. With Harpo, institutions can monitor operations with precision without compromising privacy." },
+            { "title": "Deposit and withdrawal between public and private environments", "description": "Facilitates the transit of assets between traditional and private environments with complete security. Ideal for institutions that need to operate on public networks but want to keep sensitive data in protected environments." },
+            { "title": "Creation and minting of fungible and non-fungible assets", "description": "Offers flexibility to develop unique tokens (NFTs) or interchangeable (fungible) tokens, with advanced layers of security and privacy. A solid foundation for customized and scalable digital products." },
+            { "title": "Swap and DvP (Delivery versus Payment)", "description": "Provides asset exchanges with simultaneous and secure settlement. Ensures that delivery and payment occur in a coordinated manner, reducing operational risks and strengthening trust between participants." },
+            { "title": "Encrypted private messaging", "description": "Enables secure communication between institutions through encrypted messages. With this functionality, it's possible to exchange sensitive information within the blockchain environment with complete confidentiality." },
+            { "title": "Public key registration", "description": "Allows institutions to register their public keys securely and auditably, creating a reliable foundation for digital transactions and validations within the Drex ecosystem." },
+            { "title": "Asset blocking and seizure by authority", "description": "Meets regulatory requirements by allowing competent authorities to act in the temporary or permanent suspension of assets, with complete record integrity and operational transparency." },
+            { "title": "Configurable state machine for transactional flow control", "description": "Offers detailed control over each stage of an operation, with customizable logic that follows the asset lifecycle. Ideal for process automation and operational risk reduction." }
+        ]
+    },
+
+    "faqs": {
+        "highlight": "FAQs",
+        "title": "Frequently Asked Questions",
+        "subtitle": "This section answers the most frequent questions about the Harpo protocol, its privacy architecture, and how you can participate.",
+        "items": [
+            { "title": "What is Harpo ZK?", "description": "Harpo ZK is a protocol that allows the coexistence of public and private transactions on EVM-compatible networks (such as Ethereum, Polygon, Arbitrum etc.), using zero-knowledge proofs (Zero-Knowledge Proofs) and a model based on UTXOs and nullifiers. It offers privacy without sacrificing interoperability with public assets." },
+            { "title": "What are Zero-Knowledge Proofs?", "description": "ZKPs (Zero-Knowledge Proofs) are cryptographic techniques that allow proving that something is true without revealing the data involved. In the context of Harpo, this means validating transactions without exposing values or participant identities." },
+            { "title": "What is the difference between public and private transactions?", "description": "Public transactions are those in which all information, such as values, senders, and recipients, are visible to anyone who consults the blockchain. Private transactions, on the other hand, hide this information using zero-knowledge proofs, preserving participant confidentiality while maintaining network integrity." },
+            { "title": "How do UTXOs work in Harpo?", "description": "In the Harpo protocol, private tokens are represented by UTXOs, which are outputs of unspent transactions. When a user makes a transaction, they consume one or more UTXOs they own and create new UTXOs as a result. This model allows tracking and validating token possession without compromising privacy." },
+            { "title": "What are nullifiers?", "description": "Nullifiers are unique identifiers derived from UTXOs that have already been used in a transaction. They serve to prevent double spending, ensuring that a single UTXO cannot be reused. By revealing a nullifier, the system knows that the corresponding UTXO has already been spent and cannot be used again." },
+            { "title": "Does Harpo have an SDK?", "description": "Yes, Harpo offers an SDK that makes it easier to use its technology. This SDK automates the generation of cryptographic proofs necessary, creates the correct payload for interaction with smart contracts, and also offers tools to monitor blockchain events and consolidate UTXOs in the user's possession." },
+            { "title": "In which networks can Harpo be used?", "description": "The Harpo protocol can be used on any blockchain network compatible with the Ethereum Virtual Machine (EVM), such as Ethereum, Polygon, BNB Chain, Arbitrum, Optimism, etc. This compatibility broadens the reach of Harpo and facilitates its integration with existing platforms." },
+            { "title": "What is the objective of the Harpo community?", "description": "The objective of the Harpo community is to build a decentralized and transparent infrastructure for private transactions, encouraging education and the adoption of zero-knowledge proof-based technologies. The community is open to developers, researchers, enthusiasts, and users interested in privacy and blockchain innovation." }
+        ]
+    }
+}

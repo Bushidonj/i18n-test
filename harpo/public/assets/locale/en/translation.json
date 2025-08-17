@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Privacy Protocol Harpo ZK",
+    "infrastructure": "Our infrastructure adapts to various scenarios, including data protection with operational transparency",
+    "learnMore": "Learn more"
+  },
+
+  "features": {
+    "highlight": "Components",
+    "title": "Data Blindage with Cryptographic Proofs",
+    "subtitle": "Silent authentication and traceability without public exposure.",
+    "items": [
+      {
+        "title": "UTXO",
+        "description": "Used to represent assets between parties of a negotiation, in conditions of being transacted by the receiver through proof of ownership."
+      },
+      {
+        "title": "ZKP Proofs",
+        "description": "Allow parties to prove to contracts the possession of certain information, without revealing the information itself."
+      },
+      {
+        "title": "Asymmetric keys",
+        "description": "Used to enable information encryption and ensure that only the intended recipient can read it."
+      },
+      {
+        "title": "Hash tree",
+        "description": "Used to verify the existence of commitments associated with UTXOs and ensure that information is received without damage, alterations or fraud."
+      },
+      {
+        "title": "Hashing",
+        "description": "A resource applied in the production of commitments to be registered by the EVM, ensuring their authenticity and integrity, while preventing reversions to original data."
+      },
+      {
+        "title": "Nullifiers",
+        "description": "Used to authorize UTXO expenditures, representing them in an unlinkable manner from commitments, to prevent navigation between transactions."
+      }
+    ]
+  }
+}

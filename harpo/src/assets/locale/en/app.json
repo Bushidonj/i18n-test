@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "infrastructure": "Our infrastructure adapts to various scenarios, including data protection with operational transparency"
+  },
+  "features": {
+    "title": "Data Protection with Cryptographic Proofs",
+    "subtitle": "Silent authentication and traceability without public exposure.",
+    "highlight": "Components",
+    "items": [
+      {
+        "id": "utxo",
+        "title": "UTXO",
+        "description": "Used to represent assets between negotiating parties, ready to be transacted by the recipient upon proof of ownership."
+      },
+      {
+        "id": "zkp",
+        "title": "ZKP Proofs",
+        "description": "Allow parties to prove possession of specific information to contracts without revealing the information itself."
+      },
+      {
+        "id": "asymmetric-keys",
+        "title": "Asymmetric Keys",
+        "description": "Used to enable information encryption and ensure that only the intended recipient can read it."
+      },
+      {
+        "id": "hash-tree",
+        "title": "Hash Tree",
+        "description": "Used to verify the existence of commitments associated with UTXOs and ensure information is received without damage or tampering."
+      },
+      {
+        "id": "hashing",
+        "title": "Hashing",
+        "description": "Resource applied in the production of commitments to be registered by the EVM, ensuring their authenticity and integrity while preventing reversals to original data."
+      },
+      {
+        "id": "nullifiers",
+        "title": "Nullifiers",
+        "description": "Used to authorize UTXO spending, representing them in a way that's decoupled from commitments to prevent transaction graph navigation."
+      }
+    ]
+  }
+}

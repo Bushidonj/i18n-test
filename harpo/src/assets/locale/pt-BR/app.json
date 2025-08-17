@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "infrastructure": "Nossa infraestrutura se adapta a cenários diversos, incluindo proteção de dados com transparência operacional"
+  },
+  "features": {
+    "title": "Blindagem de Dados com Provas Criptográficas",
+    "subtitle": "Autenticação silenciosa e rastreabilidade sem exposição pública.",
+    "highlight": "Componentes",
+    "items": [
+      {
+        "id": "utxo",
+        "title": "UTXO",
+        "description": "Empregadas para representar ativos entre partes de uma negociação, em condições de serem transacionados pelo receptor mediante prova de propriedade."
+      },
+      {
+        "id": "zkp",
+        "title": "Provas ZKP",
+        "description": "Permitem que as partes provem aos contratos a posse de determinadas informações, sem revelar informações em si."
+      },
+      {
+        "id": "asymmetric-keys",
+        "title": "Chaves assimétricas",
+        "description": "Usadas para possibilitar a cifragem das informações e assegurar que apenas o destinatário pretendido consiga lê-las."
+      },
+      {
+        "id": "hash-tree",
+        "title": "Árvore de hash",
+        "description": "Utilizada para verificar a existência dos compromissos associados aos UTXOs e certificar que as informações sejam recebidas sem danos ou falseamentos."
+      },
+      {
+        "id": "hashing",
+        "title": "Hashing",
+        "description": "Recurso aplicado na produção dos compromissos a serem registrados pela EVM, garantindo sua autenticidade e integridade, enquanto impõe reversões aos dados originais."
+      },
+      {
+        "id": "nullifiers",
+        "title": "Anuladores",
+        "description": "Empregados para autorizar os gastos dos UTXOs, representando-os de modo desvinculado dos compromissos, a fim de não permitir navegação entre transações."
+      }
+    ]
+  }
+}
