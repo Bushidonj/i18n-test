@@ -14,7 +14,7 @@ const Headline = ({ title, subtitle, highlight, classes = {} }) => {
         <h2 className={`mt-2 text-5xl md:text-4xl font-bold ${classes.title || ''}`}>{title}</h2>
       ) : null}
       {subtitle ? (
-        <p className={`mt-4 text-gray-600 dark:text-gray-300 ${classes.subtitle || ''}`}>{subtitle}</p>
+        <p className={`mt-4 text-gray-700 dark:text-gray-300 ${classes.subtitle || ''}`}>{subtitle}</p>
       ) : null}
     </div>
   );
