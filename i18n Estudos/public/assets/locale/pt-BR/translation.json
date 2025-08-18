@@ -1,0 +1,440 @@
+{
+  "welcome": "Bem-vindo",
+  "hello": "Olá",
+  "this is an english app": "Este é um app em inglês",
+  "this is a multi language app": "Este é um app multilíngue",
+  "you can change the language of app manually": "Você pode alterar o idioma do app manualmente",
+  "header": {
+    "brand": "Harpo-ZK",
+    "menu": {
+      "about": "Sobre",
+      "forDevs": "Para Devs",
+      "aboutUs": "Sobre nós",
+      "aboutHarpoZK": "Sobre o Harpo-ZK",
+      "blog": "Blog",
+      "flowSDK": "Fluxo SDK",
+      "terms": "Termos de Uso",
+      "docs": "Documentação",
+      "howToUse": "Como usar",
+      "concepts": "Conceitos"
+    },
+    "language": "Idioma"
+  },
+  "footer": {
+    "brand": "Harpo-ZK",
+    "description": "Infraestrutura que protege dados sem comprometer a transparência.",
+    "columns": {
+      "support": "Suporte",
+      "company": "Empresa",
+      "devs": "Para Desenvolvedores",
+      "legal": "Jurídico"
+    },
+    "links": {
+      "aboutHarpo": "Sobre o Harpo-ZK",
+      "professionalServices": "Serviços Profissionais",
+      "technicalContact": "Contato Técnico",
+      "aboutUs": "Sobre nós",
+      "blog": "Blog",
+      "demo": "Demonstração (Agendar Demo)",
+      "docs": "Documentação",
+      "howToUse": "Como usar",
+      "concepts": "Conceitos",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Uso"
+    },
+    "madeBy": "Feito por",
+    "allRights": "Todos os direitos reservados.",
+    "version": "Versão 0.0.5"
+  },
+  "hero": {
+    "title": "Protocolo de Privacidade Harpo ZK",
+    "titleRich": "Protocolo de Privacidade <br/> <harpo>Harpo </harpo><zk>ZK</zk>",
+    "infrastructureTop": "O Harpo ZK oferece soluções seguras e escaláveis, focadas em segurança <crypto>criptográfica</crypto>, privacidade e conformidade regulatória.",
+    "infrastructureBottom": "Nossa infraestrutura se adapta a diversos cenários, incluindo proteção de dados com transparência operacional.",
+    "infrastructure": "O Harpo ZK oferece soluções seguras e escaláveis, focadas em segurança criptográfica, privacidade e conformidade regulatória. Nossa infraestrutura se adapta a diversos cenários, incluindo proteção de dados com transparência operacional.",
+    "learnMore": "Saber mais"
+  },
+  "features": {
+    "highlight": "Componentes",
+    "title": "Blindagem de Dados com Provas Criptográficas",
+    "subtitle": "Autenticação silenciosa e rastreabilidade sem exposição pública.",
+    "items": [
+      {
+        "title": "UTXO",
+        "description": "Usado para representar ativos entre partes de uma negociação, em condições de serem transacionados pelo recebedor mediante prova de posse."
+      },
+      {
+        "title": "Provas ZKP",
+        "description": "Permitem às partes provar aos contratos a posse de certas informações, sem revelar a própria informação."
+      },
+      {
+        "title": "Chaves assimétricas",
+        "description": "Usadas para viabilizar a criptografia de informações e garantir que apenas o destinatário pretendido possa lê-las."
+      },
+      {
+        "title": "Árvore de hash",
+        "description": "Usada para verificar a existência de compromissos associados aos UTXOs e garantir que as informações sejam recebidas sem danos, alterações ou fraude."
+      },
+      {
+        "title": "Hashing",
+        "description": "Recurso aplicado na produção de compromissos a serem registrados pela EVM, garantindo autenticidade e integridade, evitando reversões aos dados originais."
+      },
+      {
+        "title": "Nullifiers",
+        "description": "Usados para autorizar gastos de UTXOs, representando-os de forma não vinculável aos compromissos, para impedir a navegação entre transações."
+      }
+    ]
+  },
+  "offeredFeatures": {
+    "title": "Funcionalidades",
+    "items": [
+      {
+        "title": "Transparência de ativos privados",
+        "description": "Permite rastreabilidade completa de ativos digitais preservando a confidencialidade das partes envolvidas. Com o Harpo, instituições podem monitorar operações com precisão sem comprometer a privacidade."
+      },
+      {
+        "title": "Depósito e saque entre ambientes públicos e privados",
+        "description": "Facilita o trânsito de ativos entre ambientes tradicionais e privados com total segurança. Ideal para instituições que precisam operar em redes públicas mas desejam manter dados sensíveis em ambientes protegidos."
+      },
+      {
+        "title": "Criação e mintagem de ativos fungíveis e não fungíveis",
+        "description": "Oferece flexibilidade para desenvolver tokens únicos (NFTs) ou intercambiáveis (fungíveis), com camadas avançadas de segurança e privacidade. Base sólida para produtos digitais personalizados e escaláveis."
+      },
+      {
+        "title": "Swap e DvP (Delivery versus Payment)",
+        "description": "Proporciona trocas de ativos com liquidação simultânea e segura. Garante que entrega e pagamento ocorram de forma coordenada, reduzindo riscos operacionais e fortalecendo a confiança entre participantes."
+      },
+      {
+        "title": "Mensageria privada criptografada",
+        "description": "Viabiliza comunicação segura entre instituições por meio de mensagens criptografadas. É possível trocar informações sensíveis no ambiente blockchain com total confidencialidade."
+      },
+      {
+        "title": "Registro de chaves públicas",
+        "description": "Permite que instituições registrem suas chaves públicas de forma segura e auditável, criando uma base confiável para transações e validações digitais no ecossistema Drex."
+      },
+      {
+        "title": "Bloqueio e apreensão de ativos por autoridade",
+        "description": "Atende exigências regulatórias ao permitir a atuação de autoridades competentes na suspensão temporária ou permanente de ativos, com integridade de registros e transparência operacional."
+      },
+      {
+        "title": "Máquina de estados configurável para controle de fluxos",
+        "description": "Oferece controle detalhado sobre cada etapa de uma operação, com lógica customizável que acompanha o ciclo de vida do ativo. Ideal para automação de processos e redução de risco operacional."
+      }
+    ]
+  },
+  "faqs": {
+    "highlight": "FAQs",
+    "title": "Perguntas Frequentes",
+    "subtitle": "Esta seção responde às dúvidas mais frequentes sobre o protocolo Harpo, sua arquitetura de privacidade e como você pode participar.",
+    "items": [
+      {
+        "title": "O que é o Harpo ZK?",
+        "description": "O Harpo ZK é um protocolo que permite a coexistência de transações públicas e privadas em redes compatíveis com EVM (como Ethereum, Polygon, Arbitrum etc.), usando provas de conhecimento zero (Zero-Knowledge Proofs) e um modelo baseado em UTXOs e nullifiers. Oferece privacidade sem sacrificar a interoperabilidade com ativos públicos."
+      },
+      {
+        "title": "O que são Zero-Knowledge Proofs?",
+        "description": "ZKPs (Zero-Knowledge Proofs) são técnicas criptográficas que permitem provar que algo é verdadeiro sem revelar os dados envolvidos. No contexto do Harpo, isso significa validar transações sem expor valores ou identidades dos participantes."
+      },
+      {
+        "title": "Qual a diferença entre transações públicas e privadas?",
+        "description": "Transações públicas têm informações como valores, remetentes e destinatários visíveis a qualquer um que consulte a blockchain. Já as privadas ocultam essas informações por meio de provas de conhecimento zero, preservando a confidencialidade sem comprometer a integridade da rede."
+      },
+      {
+        "title": "Como funcionam os UTXOs no Harpo?",
+        "description": "No protocolo Harpo, tokens privados são representados por UTXOs, que são saídas de transações não gastas. Quando um usuário realiza uma transação, ele consome um ou mais UTXOs de sua posse e cria novos UTXOs como resultado. Esse modelo permite rastrear e validar a posse sem comprometer a privacidade."
+      },
+      {
+        "title": "O que são nullifiers?",
+        "description": "Nullifiers são identificadores únicos derivados de UTXOs que já foram usados em uma transação. Eles impedem o duplo gasto, garantindo que um UTXO não seja reutilizado. Ao revelar um nullifier, o sistema sabe que o UTXO correspondente já foi gasto e não pode ser usado novamente."
+      },
+      {
+        "title": "O Harpo possui SDK?",
+        "description": "Sim, o Harpo oferece um SDK que facilita o uso da tecnologia. Esse SDK automatiza a geração das provas criptográficas necessárias, cria o payload correto para interação com contratos inteligentes e fornece ferramentas para monitorar eventos e consolidar UTXOs em posse do usuário."
+      },
+      {
+        "title": "Em quais redes o Harpo pode ser usado?",
+        "description": "O protocolo Harpo pode ser utilizado em qualquer rede compatível com a EVM, como Ethereum, Polygon, BNB Chain, Arbitrum, Optimism, etc. Essa compatibilidade amplia o alcance do Harpo e facilita a integração com plataformas existentes."
+      },
+      {
+        "title": "Qual é o objetivo da comunidade Harpo?",
+        "description": "O objetivo da comunidade Harpo é construir uma infraestrutura descentralizada e transparente para transações privadas, incentivando educação e adoção de tecnologias baseadas em provas de conhecimento zero. A comunidade é aberta a desenvolvedores, pesquisadores, entusiastas e usuários interessados em privacidade e inovação em blockchain."
+      }
+    ]
+  },
+  "pages": {
+    "flowSDK": {
+      "title": "Fluxo de Uso do SDK para Provas e Interação",
+      "envPreparation": {
+        "title": "1. Preparação do ambiente ",
+        "body": "No início, o usuário deve obter o SDK com os arquivos necessários para gerar provas criptográficas. Esses arquivos são essenciais para o funcionamento do protocolo e não devem ser modificados. O SDK está preparado para assumir o controle da criação das provas, eliminando a necessidade de manipulação manual desses elementos."
+      },
+      "proofPayload": {
+        "title": "2. Geração de provas e payload ",
+        "body": "Com o ambiente pronto, o SDK assume o papel de gerar a prova criptográfica e montar automaticamente o payload a ser enviado ao contrato inteligente. Essa automação garante segurança e consistência na comunicação com a blockchain, evitando erros humanos e acelerando o processo de validação."
+      },
+      "events": {
+        "title": "3. Monitoramento de eventos na rede ",
+        "body": "O protocolo exige que sejam configurados listeners para capturar eventos emitidos na rede blockchain. Esses eventos são cruciais para consolidar a posse de UTXOs e garantir que as operações sejam executadas corretamente. O SDK oferece suporte direto para implementar e gerenciar esses listeners com eficiência."
+      },
+      "contracts": {
+        "title": "4. Interação com contratos inteligentes ",
+        "body": "Para interagir com os contratos, o usuário terá acesso às ABIs dos contratos implantados. Com essas definições, é possível usar bibliotecas como Web3.js, Ethers.js ou Hardhat. Se preferir um caminho mais simples, o próprio SDK fornece métodos que facilitam essa comunicação sem precisar configurar tudo manualmente."
+      },
+      "ready": {
+        "title": "5. Pronto! "
+      },
+      "imageAlt": "Etapas de uso do SDK"
+    },
+    "aboutHarpoZK": {
+      "title": "Sobre o Harpo-ZK",
+      "trilemma": {
+        "title": "⚖️ Trilema: Equilíbrio entre Privacidade, Inovação e Abertura",
+        "body": "O Harpo-ZK foi criado para resolver um dos maiores desafios do blockchain institucional: manter o equilíbrio entre descentralização, programabilidade e privacidade sem comprometer nenhum desses pilares.",
+        "items": {
+          "decentralization": "Descentralização na oferta de produtos e serviços, permitindo que diferentes instituições operem de forma autônoma e segura.",
+          "programmability": "Programabilidade para desenvolver e compor serviços financeiros modernos, personalizáveis e escaláveis.",
+          "privacy": "Privacidade compatível com requisitos legais, protegendo dados sensíveis dos usuários sem sacrificar a transparência regulatória."
+        },
+        "quote": "O Harpo-ZK não escolhe um lado do triângulo — ele entrega todos os vértices com eficiência, compliance e inovação."
+      },
+      "integratedPrivacy": {
+        "title": "🔐 Privacidade Integrada: Como o Harpo-ZK Protege Transações Digitais",
+        "body1": "O Harpo-ZK estabelece uma ponte segura entre os sistemas das instituições financeiras e a blockchain. Ele permite que dados sensíveis sejam processados fora da rede pública e validados com integridade total dentro do ambiente blockchain.",
+        "body2": "Por meio de componentes como Core, Prover e Validator, o Harpo-ZK garante que informações confidenciais — como credenciais de usuários, dados de contratos e auditorias — sejam protegidas sem comprometer a transparência e a rastreabilidade exigidas por regulações.",
+        "quote": "É a combinação ideal entre sigilo e confiança para quem busca inovação com segurança digital."
+      },
+      "advancedEncryption": {
+        "title": "🔐 Criptografia Avançada: Segurança Digital em Cada Transação",
+        "body1": "O Harpo-ZK utiliza técnicas de criptografia de ponta para proteger todas as etapas de uma operação digital. Dados da transação — como endereço do titular, tipo de token, valor e identificadores únicos — são processados com camadas de segurança envolvendo criptografia de chaves pública e privada, além de elementos como nullifier e commitment, que asseguram integridade e não rastreabilidade da operação.",
+        "body2": "Essa abordagem garante que informações sensíveis não sejam expostas na rede pública, viabilizando uma experiência blockchain confiável e segura, em conformidade com requisitos regulatórios.",
+        "quote": "Com o Harpo-ZK, privacidade deixa de ser desafio e vira vantagem competitiva."
+      },
+      "secureTransfer": {
+        "title": "🔄 Transferência Segura entre Partes: Tokens, Commitments e Rastreabilidade",
+        "body1": "O Harpo-ZK estrutura um modelo sofisticado de transferência entre participantes, em que cada operação é associada a um token digital e protegida por compromissos criptográficos.",
+        "body2": "Ao longo do processo, os nullifiers garantem que as transações sejam únicas, válidas e rastreáveis — mesmo em ambientes com múltiplos participantes, como instituições financeiras, clientes e parceiros. Elementos como a Árvore de Commitments e o Mapa de Nullifiers asseguram que cada movimento ocorra com integridade, transparência e proteção de privacidade.",
+        "quote": "No Harpo-ZK, cada token conta uma história segura — do remetente ao destinatário, com confiança em cada etapa."
+      },
+      "settlement": {
+        "title": "💼 Liquidação Segura e Verificada: Interação entre Partes com Garantia Criptográfica",
+        "body1": "A tecnologia Harpo oferece um ambiente blockchain onde as transações entre partes são processadas com alto nível de privacidade e segurança. Nesse fluxo, elementos como tokens (T), commitments (#) e nullifiers (X) são usados para garantir que cada operação tenha origem legítima, seja única e possa ser validada com total confiabilidade.",
+        "body2": "O componente DvP – Liquidator atua como verificador da transação, garantindo que os ativos trocados entre as Partes A e B sejam liquidados de forma justa e síncrona, sem risco de duplicação ou exposição de dados confidenciais.",
+        "quote": "O Harpo transforma a liquidação financeira em um processo seguro e rastreável, alinhado às exigências do setor bancário digital."
+      },
+      "encryptedTokens": {
+        "title": "🔐 Tokens Criptografados: Proteção de Ativos e Valores Transacionados",
+        "body1": "O Harpo possibilita a criação de tokens representativos de ativos e valores monetários, criptografados com as chaves públicas dos participantes e combinados a um número de uso único previamente acordado. Essa abordagem garante que o ativo e seu valor permaneçam totalmente protegidos — mesmo antes do registro da transação na blockchain.",
+        "body2": "Cada parte (Parte A e Parte B) insere seus próprios dados criptografados no sistema, que são processados pelo componente delegatedTransfer. O uso combinado de output, counterpartAsset e settlementAgent assegura integridade, rastreabilidade e conformidade com regras de privacidade.",
+        "quote": "No Harpo-ZK, segurança é mais do que um recurso — é a base para transações modernas e confiáveis."
+      },
+      "anonymity": {
+        "title": "🧠 Anonimato com Transparência: Eventos Criptografados e Dados Auditáveis na Blockchain",
+        "body1": "O Harpo-ZK combina o poder das provas de conhecimento zero (ZKP) com criptografia avançada para oferecer um ambiente blockchain onde as instituições podem publicar dados e eventos de forma segura e anônima.",
+        "items": {
+          "offchain": "Informações sensíveis ficam off-chain sob custódia das instituições (Partes A, B e C), que operam com funções de prover, encriptar e auditar.",
+          "node": "Um nó dedicado do Harpo-ZK recebe dados criptografados, valida as provas com segurança e emite eventos on-chain.",
+          "inputs": "Entradas privadas nunca são expostas, enquanto entradas públicas garantem rastreabilidade e conformidade — incluindo a raiz da árvore de commitments, trilhas de auditoria criptografadas e provas de conservação de massa."
+        },
+        "quote": "O Harpo-ZK é onde inovação tecnológica encontra responsabilidade institucional — com privacidade para o usuário e clareza para o mercado."
+      }
+    },
+    "terms": {
+      "title": "Termos e Condições",
+      "body": "Em construção..."
+    },
+    "docs": {
+      "title": "Documentação",
+      "intro": "Explore a documentação do Harpo-ZK para entender os conceitos e começar a construir.",
+      "sections": {
+        "gettingStarted": {
+          "title": "Primeiros Passos",
+          "body": "Instale o SDK, revise os exemplos e siga o fluxo de uso para integrar rapidamente."
+        }
+      },
+      "references": {
+        "title": "Referências",
+        "howToUse": "Como usar o SDK",
+        "concepts": "Conceitos essenciais",
+        "flowSDK": "Fluxo de uso do SDK"
+      }
+    },
+    "howToUse": {
+      "title": "Como usar o SDK",
+      "body1": "O SDK automatiza a geração de provas criptográficas e prepara o payload para interagir com o contrato inteligente.",
+      "body2": "Todos os arquivos necessários para a geração de provas vêm junto com o SDK e não devem ser modificados. O SDK gerencia a criação das provas e o layout do payload para você.",
+      "body3": "As ABIs dos contratos implantados serão fornecidas para que você interaja usando suas ferramentas preferidas (Web3.js, Ethers.js, Hardhat).",
+      "body4": "O protocolo inclui listeners para capturar eventos da rede. Esses eventos consolidam a posse dos UTXOs emitidos e garantem a execução correta das operações.",
+      "tools": {
+        "title": "Ferramentas Fornecidas",
+        "eventCapture": "Captura de eventos on-chain",
+        "utxoVerify": "Consolidação e verificação de UTXOs",
+        "automateStates": "Auxiliares de automação para estados e fluxos"
+      }
+    },
+    "concepts": {
+      "title": "Conceitos",
+      "utxo": {
+        "title": "UTXO",
+        "body": "O Harpo usa o modelo de Saída de Transação Não Gasta (UTXO) para representar ativos na rede privada. Cada UTXO carrega proprietário, tipo de ativo, quantia e um nonce para segurança e rastreabilidade.",
+        "example": "Exemplo: um UTXO de token contém a chave pública do proprietário, o tipo de token, a quantia e um nonce único.",
+        "exampleTitle": "Exemplo de Representação de UTXO"
+      },
+      "smt": {
+        "title": "Árvore de Merkle Esparsa (SMT)",
+        "body": "Uma Sparse Merkle Tree armazena de forma eficiente os commitments de transações privadas e permite provas compactas com verificação rápida.",
+        "structure": "Visão da estrutura:",
+        "items": {
+          "root": "Raiz: representa o estado global e é armazenada no contrato para validação.",
+          "path": "Consulta e Caminho: um caminho de Merkle verifica inclusão usando hashes irmãos até a raiz.",
+          "history": "Histórico de Raízes: raízes passadas são mantidas para permitir verificação de transações anteriores."
+        },
+        "benefitsTitle": "Benefícios do uso de SMT",
+        "benefits": {
+          "storage": "Armazenamento eficiente de commitments",
+          "inclusion": "Provas de inclusão rápidas",
+          "offchain": "Manter dados pesados off-chain"
+        }
+      },
+      "hashing": {
+        "title": "Hashing (Poseidon)",
+        "body1": "Usamos hashing criptográfico para garantir integridade e privacidade. Os dados armazenados na SMT permanecem imutáveis e verificáveis.",
+        "whyPoseidonTitle": "Por que Poseidon",
+        "whyPoseidon": "É otimizado para circuitos ZK (SNARKs/STARKs), melhorando a eficiência de prova em relação a hashes tradicionais.",
+        "characteristics": "Características",
+        "items": {
+          "zkEfficient": "Eficiente dentro de circuitos ZK",
+          "complexity": "Menor complexidade de circuito",
+          "security": "Fortes propriedades de segurança",
+          "commitments": "Base para construir commitments"
+        },
+        "usage": {
+          "title": "Uso",
+          "utxo": "Criar hashes de UTXO",
+          "commitments": "Gerar commitments",
+          "inclusion": "Verificar provas de inclusão"
+        },
+        "conclusion": "Hashing garante integridade e possibilita verificação eficiente sem revelar dados originais."
+      },
+      "secret": {
+        "title": "Secret",
+        "body1": "O Secret é a representação do UTXO codificada para transferência privada sem revelar seus dados. O proprietário legítimo pode decriptá-lo com sua chave privada.",
+        "body2": "O payload contém o tipo de token, a quantia e quaisquer dados adicionais conforme necessário.",
+        "header": "Cabeçalho: ponto compartilhado, chave pública do dono e nonce.",
+        "payload": "Payload: tipo de ativo, quantia e metadados opcionais.",
+        "items": {
+          "sharedPoint": "Ponto Compartilhado para derivação de chave",
+          "ownerKey": "Chave pública do proprietário do ativo",
+          "nonce": "Nonce único para evitar replay",
+          "assetType": "Tipo de ativo",
+          "amount": "Quantia",
+          "other": "Outros metadados opcionais"
+        },
+        "conclusion": "Apenas o dono pode decriptar e gastar o secret usando sua chave privada."
+      },
+      "audit": {
+        "title": "Secret de Auditoria",
+        "body": "Em construção ..."
+      },
+      "commitment": {
+        "title": "Commitment",
+        "body1": "Um commitment é Poseidon(secret). Apenas o hash é armazenado on-chain, preservando a privacidade com integridade.",
+        "formulaTitle": "Fórmula do Commitment",
+        "role": "Papel: integridade sem divulgação; verificação eficiente na SMT; evita reutilização de UTXOs gastos.",
+        "items": {
+          "integrity": "Integridade sem divulgação",
+          "verify": "Verificação eficiente na SMT",
+          "preventReuse": "Evita reutilização de UTXOs gastos"
+        }
+      },
+      "nullifiers": {
+        "title": "Nullifiers",
+        "body1": "Nullifiers autorizam o gasto representando, de forma não vinculável, commitments já usados com a chave privada do proprietário.",
+        "formulaTitle": "Fórmula",
+        "mapping": "Contratos armazenam nullifiers em um mapeamento para consultas de não existência, prevenindo duplos gastos."
+      },
+      "zkp": {
+        "title": "Prova de Conhecimento Zero",
+        "body": "Provas verificam regras da transação sem revelar entradas privadas. O Harpo usa múltiplos circuitos:",
+        "items": {
+          "input": "Verificação de Entradas: com a chave privada do remetente, recomputar commitments e nullifiers e comparar.",
+          "output": "Verificação de Saídas: com as chaves públicas dos destinatários, recomputar commitments e comparar.",
+          "tree": "Verificação da Árvore: checar o caminho de Merkle até uma raiz aceita.",
+          "mass": "Conservação de Massa: soma(entradas) = soma(saídas), saídas > 0.",
+          "audit": "AuditSecret: verificar valores e chaves vs. secret de auditoria fornecido."
+        }
+      },
+      "circuits": {
+        "title": "Circuitos",
+        "body": "O Harpo usa múltiplos circuitos para validar entradas, saídas, inclusão na árvore, conservação de massa e checagens de auditoria.",
+        "imageAlt": "Diagrama de circuitos"
+      },
+      "prover": {
+        "title": "Prover",
+        "body1": "Componente usado para gerar provas. É fornecido junto com três arquivos: WASM, VKEY e ZKEY.",
+        "body2": "Dois métodos são expostos: generateTransferProof e verifyTransferProof."
+      },
+      "transfer": {
+        "title": "Transfer",
+        "body": "O objeto de transferência a ser enviado para a rede deve seguir a seguinte interface:",
+        "notes": {
+          "inputs": "Entradas: lista de nullifiers",
+          "outputs": "Saídas: lista de secrets",
+          "root": "Raiz de Merkle armazenada on-chain",
+          "audit": "Secret de auditoria criptografado",
+          "proof": "Prova ZK da transação"
+        }
+      },
+      "inputs": {
+        "title": "Entradas",
+        "body": "As entradas de uma transação de transferência consistem em uma lista de nullifiers."
+      },
+      "outputs": {
+        "title": "Saídas",
+        "body": "As saídas de uma transação de transferência consistem em uma lista de secrets.",
+        "notes": {
+          "body1": "Cada saída é um Secret criptografado com a chave pública do destinatário.",
+          "body2": "O destinatário pode decriptar e gastar posteriormente."
+        }
+      },
+      "harpo": {
+        "title": "Harpo",
+        "body1": "O Harpo viabiliza transações privadas com verificação on-chain.",
+        "body2": "Participantes trocam dados criptografados e provas ZK.",
+        "body3": "Eventos públicos mantêm rastreabilidade sem expor dados sensíveis.",
+        "body4": "Fluxos de DvP e swap são suportados.",
+        "body5": "Instituições podem auditar sem comprometer a privacidade.",
+        "body6": "Projetado para conformidade e interoperabilidade.",
+        "imageAlt": "Diagrama de swap"
+      },
+      "transferChange": {
+        "title": "Transfer com Troco",
+        "body1": "Se a quantia de entrada exceder a saída desejada, um troco é criado para o remetente.",
+        "body2": "Isso preserva a integridade do modelo UTXO.",
+        "body3": "O troco também é um Secret atribuído de volta à origem."
+      },
+      "combinedDvp": {
+        "title": "DvP Combinado",
+        "body": "Em construção..."
+      },
+      "merkle": {
+        "title": "Árvore de Merkle",
+        "body": "Uma árvore de Merkle é uma árvore de hashes que resume muitos registros em uma única raiz, permitindo verificação eficiente.",
+        "structure": "Folhas (hashes de dados), nós intermediários (hashes combinados) e uma única raiz de Merkle.",
+        "structureTitle": "Estrutura",
+        "structureList": {
+          "leaves": "Folhas (hashes de dados)",
+          "nodes": "Nós intermediários (hashes combinados)",
+          "root": "Raiz de Merkle única"
+        },
+        "advantagesTitle": "Principais Vantagens de uma Árvore de Merkle",
+        "items": {
+          "verify": "Verificação eficiente com caminhos de Merkle compactos",
+          "integrity": "Integridade global via raiz de Merkle",
+          "scalability": "Escalabilidade ao armazenar apenas a raiz on-chain",
+          "compact": "Provas de inclusão compactas",
+          "parallel": "Construção paralelizável"
+        }
+      }
+    }
+  }
+}

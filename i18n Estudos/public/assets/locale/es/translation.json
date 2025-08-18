@@ -1,0 +1,60 @@
+{
+    "welcome":"bienvenida/bienvenido",
+    "hello":"Hola",
+    "this is an english app":"esta es una aplicación española",
+    "this is a multi language app":"esta es una aplicación multilingüe",
+    "you can change the language of app manually":"puedes cambiar el idioma de la aplicación manualmente",
+
+    "hero": {
+        "title": "Protocolo de Privacidad Harpo ZK",
+        "titleRich": "Protocolo de Privacidad <br/> <harpo>Harpo </harpo><zk>ZK</zk>",
+        "infrastructureTop": "Harpo ZK ofrece soluciones seguras y escalables, enfocadas en seguridad <crypto>criptográfica</crypto>, privacidad y cumplimiento normativo.",
+        "infrastructureBottom": "Nuestra infraestructura se adapta a diversos escenarios, incluida la protección de datos con transparencia operativa.",
+        "infrastructure": "Harpo ZK ofrece soluciones seguras y escalables enfocadas en seguridad criptográfica, privacidad y cumplimiento normativo. Nuestra infraestructura se adapta a diversos escenarios, incluyendo la protección de datos con transparencia operativa.",
+        "learnMore": "Saber más"
+    },
+
+    "features": {
+        "highlight": "Componentes",
+        "title": "Blindaje de datos con pruebas criptográficas",
+        "subtitle": "Autenticación silenciosa y trazabilidad sin exposición pública.",
+        "items": [
+            { "title": "UTXO", "description": "Se utiliza para representar activos entre las partes de una negociación, en condiciones de ser transaccionados por el receptor mediante prueba de posesión." },
+            { "title": "Pruebas ZKP", "description": "Permiten a las partes probar a los contratos la posesión de cierta información sin revelar la información misma." },
+            { "title": "Claves asimétricas", "description": "Se utilizan para habilitar el cifrado de la información y garantizar que solo el destinatario previsto pueda leerla." },
+            { "title": "Árbol de hash", "description": "Se utiliza para verificar la existencia de compromisos asociados a UTXOs y garantizar que la información se reciba sin daños, alteraciones o fraude." },
+            { "title": "Hashing", "description": "Recurso aplicado en la producción de compromisos a ser registrados por la EVM, garantizando su autenticidad e integridad y evitando reversiones a los datos originales." },
+            { "title": "Nullifiers", "description": "Se utilizan para autorizar gastos de UTXOs, representándolos de manera no vinculable con los compromisos, para impedir la navegación entre transacciones." }
+        ]
+    },
+
+    "offeredFeatures": {
+        "title": "Funcionalidades",
+        "items": [
+            { "title": "Transparencia de activos privados", "description": "Permite la trazabilidad completa de los activos digitales preservando la confidencialidad de las partes involucradas. Con Harpo, las instituciones pueden monitorear las operaciones con precisión sin comprometer la privacidad." },
+            { "title": "Depósito y retiro entre entornos públicos y privados", "description": "Facilita el tránsito de activos entre entornos tradicionales y privados con total seguridad. Ideal para instituciones que necesitan operar en redes públicas pero desean mantener datos sensibles en entornos protegidos." },
+            { "title": "Creación y acuñación de activos fungibles y no fungibles", "description": "Ofrece flexibilidad para desarrollar tokens únicos (NFTs) o intercambiables (fungibles), con capas avanzadas de seguridad y privacidad. Base sólida para productos digitales personalizados y escalables." },
+            { "title": "Swap y DvP (Entrega contra Pago)", "description": "Proporciona intercambios de activos con liquidación simultánea y segura. Asegura que la entrega y el pago ocurran de manera coordinada, reduciendo riesgos operativos y fortaleciendo la confianza entre las partes." },
+            { "title": "Mensajería privada cifrada", "description": "Permite la comunicación segura entre instituciones mediante mensajes cifrados. Es posible intercambiar información sensible dentro del entorno blockchain con total confidencialidad." },
+            { "title": "Registro de claves públicas", "description": "Permite que las instituciones registren sus claves públicas de forma segura y auditable, creando una base confiable para transacciones y validaciones digitales dentro del ecosistema Drex." },
+            { "title": "Bloqueo y embargo de activos por autoridad", "description": "Cumple con los requisitos regulatorios al permitir que las autoridades competentes actúen en la suspensión temporal o permanente de activos, con integridad de registro y transparencia operativa." },
+            { "title": "Máquina de estados configurable para control de flujo transaccional", "description": "Ofrece control detallado sobre cada etapa de una operación, con lógica personalizable que sigue el ciclo de vida del activo. Ideal para la automatización de procesos y la reducción del riesgo operativo." }
+        ]
+    },
+
+    "faqs": {
+        "highlight": "FAQs",
+        "title": "Preguntas Frecuentes",
+        "subtitle": "Esta sección responde a las preguntas más frecuentes sobre el protocolo Harpo, su arquitectura de privacidad y cómo puedes participar.",
+        "items": [
+            { "title": "¿Qué es Harpo ZK?", "description": "Harpo ZK es un protocolo que permite la coexistencia de transacciones públicas y privadas en redes compatibles con EVM (como Ethereum, Polygon, Arbitrum, etc.), utilizando pruebas de conocimiento cero (Zero-Knowledge Proofs) y un modelo basado en UTXOs y nullifiers. Ofrece privacidad sin sacrificar la interoperabilidad con activos públicos." },
+            { "title": "¿Qué son las Pruebas de Conocimiento Cero?", "description": "Las ZKPs son técnicas criptográficas que permiten probar que algo es verdadero sin revelar los datos involucrados. En el contexto de Harpo, esto significa validar transacciones sin exponer valores ni identidades de participantes." },
+            { "title": "¿Cuál es la diferencia entre transacciones públicas y privadas?", "description": "Las transacciones públicas muestran toda la información (valores, emisores y receptores) a cualquiera que consulte la blockchain. Las privadas ocultan esta información usando pruebas de conocimiento cero, preservando la confidencialidad sin comprometer la integridad de la red." },
+            { "title": "¿Cómo funcionan los UTXOs en Harpo?", "description": "En el protocolo Harpo, los tokens privados están representados por UTXOs, que son salidas de transacciones no gastadas. Al realizar una transacción, el usuario consume uno o más UTXOs de su posesión y crea nuevos UTXOs como resultado." },
+            { "title": "¿Qué son los nullifiers?", "description": "Son identificadores únicos derivados de UTXOs que ya se han utilizado en una transacción. Sirven para evitar el doble gasto, asegurando que un UTXO no pueda reutilizarse." },
+            { "title": "¿Harpo tiene un SDK?", "description": "Sí, Harpo ofrece un SDK que facilita el uso de su tecnología. Automatiza la generación de pruebas criptográficas, crea el payload correcto para interacción con smart contracts y ofrece herramientas para monitorear eventos y consolidar UTXOs." },
+            { "title": "¿En qué redes puede usarse Harpo?", "description": "Puede usarse en cualquier red compatible con la EVM, como Ethereum, Polygon, BNB Chain, Arbitrum, Optimism, etc." },
+            { "title": "¿Cuál es el objetivo de la comunidad Harpo?", "description": "Construir una infraestructura descentralizada y transparente para transacciones privadas, fomentando la educación y la adopción de tecnologías basadas en pruebas de conocimiento cero." }
+        ]
+    }
+}
