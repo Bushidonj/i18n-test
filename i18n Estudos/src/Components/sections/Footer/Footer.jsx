@@ -40,7 +40,7 @@ export default function Footer() {
       title: t('footer.columns.company'),
       items: [
         { title: t('footer.links.aboutUs'), href: '/about-us' },
-        { title: t('footer.links.blog'), href: '/blog' },
+        // { title: t('footer.links.blog'), href: '/blog' },
       ],
     },
     {
