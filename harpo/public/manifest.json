@@ -1,9 +1,0 @@
-{
-  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-  "name": "Harpo-ZK",
-  "short_name": "Harpo-ZK",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#fff",
-  "description": "Harpo-ZK - project app."
-}
